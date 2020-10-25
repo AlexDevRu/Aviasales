@@ -1,7 +1,6 @@
 .App {
   display: grid;
   grid-template-columns: 1fr 2fr;
-  grid-column-gap: 20px;
   color: #4A4A4A;
 }
 
@@ -17,4 +16,15 @@
   letter-spacing: 0.5px;
   text-transform: uppercase;
   color: #4A4A4A;
+}
+
+@media(max-width: 768px) {
+  .filter__area, .content__area {
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+
+  .filter__title {
+    text-align: center;
+  }
 }

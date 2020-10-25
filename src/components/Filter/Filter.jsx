@@ -6,7 +6,7 @@ import { connect } from 'react-redux'
 
 const Filter = (props) => {
   return (
-    <div className="filter-area">
+    <div className="filter__area">
       <div className="filter">
         <h1 className="filter__title title">Количество пересадок</h1>
         <div className="filter__items">
@@ -14,7 +14,8 @@ const Filter = (props) => {
                 props.filters.map(
                     elem => (
                       <FilterItem key={elem.id} {...elem}
-                      changeFilter={props.changeFilter} setSort={props.setSort}
+                      changeFilter={props.changeFilter} 
+                      setSort={props.setSort}
                       sortId={props.sortId}/>
                     )
                 )

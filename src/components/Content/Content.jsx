@@ -13,17 +13,19 @@ class Content extends React.Component {
 
   render() {
     return (
-      <div className="content">
-        <Sort setSort={this.props.setSort} sort={this.props.sort}/>
+      <div className="content__area">
+        <div className="content">
+          <Sort setSort={this.props.setSort} sort={this.props.sort}/>
 
-        {
-           this.props.isLoading ? <Loader /> :
-           this.props.tickets.length === 0 ? <p className="empty-list">No tickets</p> :
-           this.props.tickets.map(
-             (ticket, i) => <Ticket key={i} {...ticket}/>
-           )
-        }
-      </div>
+          {
+            this.props.isLoading ? <Loader /> :
+            this.props.tickets.length === 0 ? <p className="empty-list">No tickets</p> :
+            this.props.tickets.map(
+              (ticket, i) => <Ticket key={i} {...ticket}/>
+            )
+          }
+        </div>
+      </div>   
     );
   }
 }

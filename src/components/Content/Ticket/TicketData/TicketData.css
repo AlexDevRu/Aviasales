@@ -13,10 +13,26 @@
     color: #A0B0B9; 
 }
 
+.ticket__bottom {
+    font-weight: 600;
+}
+
 .ticket__bottom.length {
     text-transform: lowercase;
 }
 
 .ticket__item {
     flex-basis: 33%;
+}
+
+@media(max-width: 426px) {
+    .ticket__data {
+        font-size: 14px;
+    }
+}
+
+@media(max-width: 375px) {
+    .ticket__data {
+        font-size: 12px;
+    }
 }
