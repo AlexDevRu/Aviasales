@@ -64,14 +64,14 @@ export function ticketsReducer(state = initialState, action) {
                 stop: action.data
             }
         case 'CHANGE_FILTER':
-            let newFilters = state.filters.map(
+            const newFilters = state.filters.map(
                 e => e.id === action.data.id ? {
                     ...e,
                     checked: action.data.value
                 } : e
             );
 
-            let activeFilters = newFilters.filter(filter => filter.checked).map(filter => filter.count);
+            const activeFilters = newFilters.filter(filter => filter.checked).map(filter => filter.count);
             let filteredTickets = state.tickets;
 
             if(activeFilters.indexOf(-1) === -1) {
