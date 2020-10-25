@@ -9,10 +9,10 @@ const FilterItem = (props) => {
   }
 
   return (
-    <label class="control control--checkbox">
+    <label className="control control--checkbox">
       {transplants(props.count)}
       <input type="checkbox" checked={props.checked} onChange={handleChange}/>
-      <div class="control__indicator"></div>
+      <div className="control__indicator"></div>
     </label>
   );
 }
