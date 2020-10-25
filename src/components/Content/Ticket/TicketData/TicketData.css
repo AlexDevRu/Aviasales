@@ -1,0 +1,22 @@
+.ticket__data {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.ticket__top {
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    color: #A0B0B9; 
+}
+
+.ticket__bottom.length {
+    text-transform: lowercase;
+}
+
+.ticket__item {
+    flex-basis: 33%;
+}

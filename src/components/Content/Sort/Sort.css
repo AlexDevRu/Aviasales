@@ -1,0 +1,29 @@
+.tabs {
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.tab {
+    display: inline-block;
+    padding: 15px 0;
+    width: 50%;
+    border: 1px solid #DFE5EC;
+    cursor: pointer;
+}
+
+.tab:first-child {
+    border-radius: 5px 0 0 5px;
+}
+
+.tab:last-child {
+    border-radius: 0 5px 5px 0;
+}
+
+.tab.active {
+    color: #fff;
+    background-color: #2196F3;
+    border: 1px solid #DFE5EC;
+}

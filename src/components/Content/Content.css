@@ -1,0 +1,10 @@
+.content {
+    margin-right: auto;
+    width: 500px;
+}
+
+.empty-list {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 28px;
+}
