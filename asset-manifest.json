@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Aviasales/static/css/main.ce97d648.chunk.css",
+    "main.js": "/Aviasales/static/js/main.63348338.chunk.js",
+    "main.js.map": "/Aviasales/static/js/main.63348338.chunk.js.map",
+    "runtime-main.js": "/Aviasales/static/js/runtime-main.7c97dd88.js",
+    "runtime-main.js.map": "/Aviasales/static/js/runtime-main.7c97dd88.js.map",
+    "static/js/2.d1ff7748.chunk.js": "/Aviasales/static/js/2.d1ff7748.chunk.js",
+    "static/js/2.d1ff7748.chunk.js.map": "/Aviasales/static/js/2.d1ff7748.chunk.js.map",
+    "static/js/3.85c945d6.chunk.js": "/Aviasales/static/js/3.85c945d6.chunk.js",
+    "static/js/3.85c945d6.chunk.js.map": "/Aviasales/static/js/3.85c945d6.chunk.js.map",
+    "index.html": "/Aviasales/index.html",
+    "static/css/main.ce97d648.chunk.css.map": "/Aviasales/static/css/main.ce97d648.chunk.css.map",
+    "static/js/2.d1ff7748.chunk.js.LICENSE.txt": "/Aviasales/static/js/2.d1ff7748.chunk.js.LICENSE.txt",
+    "static/media/Logo.e2d2505b.svg": "/Aviasales/static/media/Logo.e2d2505b.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7c97dd88.js",
+    "static/js/2.d1ff7748.chunk.js",
+    "static/css/main.ce97d648.chunk.css",
+    "static/js/main.63348338.chunk.js"
+  ]
+}
